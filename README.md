@@ -47,7 +47,8 @@ Five wildfire (Burnt area fraction) simulation ensembles from 1961 to 1990: P1(`
 
 ## Implementation
 ### Model structure
-![community_results_v5](https://github.com/DL-WG/gcn-lstm-wildfire/assets/71702130/84f6ebb2-2eea-4e7c-9d30-261dced3b3bf)
+![model_structure](https://github.com/DL-WG/gcn-lstm-wildfire/assets/71702130/ea17c19c-37ba-4b29-bc64-62d5532df616)
+
 
 
 ### Data Processing
