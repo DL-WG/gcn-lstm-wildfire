@@ -3,7 +3,7 @@
 ## About The Project
 
 
-Wildfire prediction has become increasingly crucial due to the escalating impacts of climate change. Traditional CNN-based wildfire prediction models struggle with handling missing oceanic data and addressing the long-range dependencies across distant regions in meteorological data. In this paper, we introduce an innovative Graph Neural Network (GNN)-based model for global wildfire prediction. We propose a hybrid model that combines the spatial prowess of Graph Convolutional Networks (GCNs) with the temporal depth of Long Short-Term Memory (LSTM) networks. Our approach uniquely transforms global climate and wildfire data into a graph representation, addressing challenges such as null oceanic data locations and long-range dependencies inherent in traditional models. Benchmarking against established architectures using an unseen ensemble of JULES-INFERNO simulations, our model demonstrates superior predictive accuracy. Furthermore, we emphasise the model’s explainability, unveiling potential wildfire correlation clusters through community detection and elucidating feature importance via Integrated Gradient analysis. Our findings not only advance the methodological domain of wildfire prediction but also underscore the importance of model transparency, offering valuable insights for stakeholders in wildfire management.
+Wildfire prediction has become increasingly crucial due to the escalating impacts of climate change. Traditional CNN-based wildfire prediction models struggle with handling missing oceanic data and addressing the long-range dependencies across distant regions in meteorological data. In this paper, we introduce an innovative Graph Neural Network (GNN)-based model for global wildfire prediction. We propose a hybrid model that combines the spatial prowess of Graph Convolutional Networks (GCNs) with the temporal depth of Long Short-Term Memory (LSTM) networks. Our approach uniquely transforms global climate and wildfire data into a graph representation, addressing challenges such as null oceanic data locations and long-range dependencies inherent in traditional models. Benchmarking against established architectures using an unseen ensemble of JULES-INFERNO simulations, our model demonstrates superior predictive accuracy. Furthermore, we emphasise the model’s explainability, unveiling potential wildfire correlation clusters through community detection and elucidating feature importance via Integrated Gradient analysis. Our findings not only advance the methodological domain of wildfire prediction but also underscore the importance of model transparency, offering valuable insights for stakeholders in wildfire management.
 
 
 ## Getting Started
@@ -47,7 +47,8 @@ Five wildfire (Burnt area fraction) simulation ensembles from 1961 to 1990: P1(`
 
 ## Implementation
 ### Model structure
-![model_structure](![model_structure](https://github.com/DL-WG/gcn-lstm-wildfire/assets/71702130/618820ae-76d8-48b0-a923-a06707ec9ce4))
+![community_results_v5](https://github.com/DL-WG/gcn-lstm-wildfire/assets/71702130/84f6ebb2-2eea-4e7c-9d30-261dced3b3bf)
+
 
 ### Data Processing
 
